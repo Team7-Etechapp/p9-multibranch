@@ -44,11 +44,14 @@ pipeline {
         stage('post-build-check') {
             steps {
                 echo 'Post build check to be initiated'
+                echo 'Build completed'
             }
         }
         stage('publish') {
             steps {
                 echo 'Publishing to be initiated'
+                echo 'Publishing completed'
+                echo 'thank you group 2'
             }
         }
     }
