@@ -50,7 +50,7 @@ pipeline {
         stage('publish') {
             steps {
                 echo 'Publishing to be initiated'
-                echo 'thank you group2 etechapp'
+                echo 'thank you group2 etechapp engrs'
             }
         }
     }
